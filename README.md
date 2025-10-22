@@ -21,4 +21,33 @@ Built with:
 ---
 
 ##  Folder Structure
+string-analyzer-api/
+├─ src/
+│  ├─ app.ts
+│  ├─ server.ts
+│  ├─ routes/
+│  │   └─ stringRoutes.ts
+│  ├─ controllers/
+│  │   └─ stringController.ts
+│  ├─ services/
+│  │   └─ stringService.ts
+│  ├─ utils/
+│  │   └─ stringUtils.ts
+│  ├─ models/
+│  │   └─ stringModel.ts
+│  └─ config/
+│      └─ db.ts
+├─ package.json
+├─ tsconfig.json
+├─ .env
+└─ README.md
+## ⚙️ Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/samuel2935/string-analyzer-api.git
+cd string-analyzer-api
+npm install
+npm run dev
 

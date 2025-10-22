@@ -7,8 +7,8 @@
 6 silly config load:file:C:\Users\EPHATA\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm test
 8 verbose argv "test"
-9 verbose logfile logs-max:10 dir:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T05_43_34_252Z-
-10 verbose logfile F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T05_43_34_252Z-debug-0.log
+9 verbose logfile logs-max:10 dir:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T06_17_44_517Z-
+10 verbose logfile F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T06_17_44_517Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
 13 verbose cwd F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api

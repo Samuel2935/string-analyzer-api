@@ -1,7 +1,7 @@
-import { Router } from 'express';
+import express from 'express';
 import * as controller from '../controllers/string.controller.js';
 
-const router = Router();
+const router = express.Router();
 
 router.post('/', controller.createString);
 router.get('/filter-by-natural-language', controller.filterByNaturalLanguage);

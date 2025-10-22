@@ -1,0 +1,33 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\.npmrc
+5 silly config load:file:C:\Users\EPHATA\.npmrc
+6 silly config load:file:C:\Users\EPHATA\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm test
+8 verbose argv "test"
+9 verbose logfile logs-max:10 dir:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T05_45_45_943Z-
+10 verbose logfile F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T05_45_45_943Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack JSONParseError: Invalid package.json: JSONParseError: Expected double-quoted property name in JSON at position 407 (line 21 column 3) while parsing near "... dist/app.js\",\n  \n  },\n  \"dependencies\":..."
+13 verbose stack     at parse (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:19:21)
+13 verbose stack     at PackageJson.fromJSON (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:163:22)
+13 verbose stack     at PackageJson.load (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:158:17)
+13 verbose stack     at async PackageJson.normalize (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:118:5)
+13 verbose stack     at async #run (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\lib\commands\run.js:90:13)
+13 verbose stack     at async RunScript.exec (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\lib\commands\run.js:44:7)
+13 verbose stack     at async Npm.exec (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\lib\npm.js:208:9)
+13 verbose stack     at async module.exports (C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+14 error code EJSONPARSE
+15 error JSON.parse Invalid package.json: JSONParseError: Expected double-quoted property name in JSON at position 407 (line 21 column 3) while parsing near "... dist/app.js\",\n  \n  },\n  \"dependencies\":..."
+16 error JSON.parse Failed to parse JSON data.
+16 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+17 verbose cwd F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api
+18 verbose os Windows_NT 10.0.22621
+19 verbose node v22.14.0
+20 verbose npm  v11.5.2
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T05_45_45_943Z-debug-0.log

@@ -1,0 +1,545 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\EPHATA\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\.npmrc
+5 silly config load:file:C:\Users\EPHATA\.npmrc
+6 silly config load:file:C:\Users\EPHATA\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install tsx
+8 verbose argv "install" "--save-dev" "tsx"
+9 verbose logfile logs-max:10 dir:F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T00_38_56_268Z-
+10 verbose logfile F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\npm-cache\_logs\2025-10-22T00_38_56_268Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest tsx@*
+16 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/tsx 855ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+19 silly placeDep ROOT tsx@4.20.6 OK for: string-analyzer-api@1.0.0 want: *
+20 silly fetch manifest esbuild@~0.25.0
+21 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+22 silly fetch manifest get-tsconfig@^4.7.5
+23 silly packumentCache full:https://registry.npmjs.org/get-tsconfig cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/esbuild 595ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/get-tsconfig 707ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/get-tsconfig set size:undefined disposed:false
+28 silly placeDep ROOT esbuild@0.25.11 OK for: tsx@4.20.6 want: ~0.25.0
+29 silly placeDep ROOT get-tsconfig@4.12.0 OK for: tsx@4.20.6 want: ^4.7.5
+30 silly fetch manifest @esbuild/aix-ppc64@0.25.11
+31 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+32 silly fetch manifest @esbuild/android-arm@0.25.11
+33 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+34 silly fetch manifest @esbuild/android-arm64@0.25.11
+35 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+36 silly fetch manifest @esbuild/android-x64@0.25.11
+37 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+38 silly fetch manifest @esbuild/darwin-arm64@0.25.11
+39 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+40 silly fetch manifest @esbuild/darwin-x64@0.25.11
+41 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+42 silly fetch manifest @esbuild/freebsd-arm64@0.25.11
+43 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 288ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:undefined disposed:false
+46 silly fetch manifest @esbuild/freebsd-x64@0.25.11
+47 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 298ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:undefined disposed:false
+50 silly fetch manifest @esbuild/linux-arm@0.25.11
+51 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 233ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:undefined disposed:false
+54 silly fetch manifest @esbuild/linux-arm64@0.25.11
+55 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 323ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:undefined disposed:false
+58 silly fetch manifest @esbuild/linux-ia32@0.25.11
+59 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 710ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:undefined disposed:false
+62 silly fetch manifest @esbuild/linux-loong64@0.25.11
+63 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 726ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:undefined disposed:false
+66 silly fetch manifest @esbuild/linux-mips64el@0.25.11
+67 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 729ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:undefined disposed:false
+70 silly fetch manifest @esbuild/linux-ppc64@0.25.11
+71 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 242ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:undefined disposed:false
+74 silly fetch manifest @esbuild/linux-riscv64@0.25.11
+75 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 775ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:undefined disposed:false
+78 silly fetch manifest @esbuild/linux-s390x@0.25.11
+79 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 785ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:undefined disposed:false
+82 silly fetch manifest @esbuild/linux-x64@0.25.11
+83 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 255ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:undefined disposed:false
+86 silly fetch manifest @esbuild/netbsd-arm64@0.25.11
+87 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 215ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:undefined disposed:false
+90 silly fetch manifest @esbuild/netbsd-x64@0.25.11
+91 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 222ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:undefined disposed:false
+94 silly fetch manifest @esbuild/openbsd-arm64@0.25.11
+95 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 246ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:undefined disposed:false
+98 silly fetch manifest @esbuild/openbsd-x64@0.25.11
+99 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 248ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:undefined disposed:false
+102 silly fetch manifest @esbuild/openharmony-arm64@0.25.11
+103 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 239ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:undefined disposed:false
+106 silly fetch manifest @esbuild/sunos-x64@0.25.11
+107 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 326ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:undefined disposed:false
+110 silly fetch manifest @esbuild/win32-arm64@0.25.11
+111 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 251ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:undefined disposed:false
+114 silly fetch manifest @esbuild/win32-ia32@0.25.11
+115 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 203ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:undefined disposed:false
+118 silly fetch manifest @esbuild/win32-x64@0.25.11
+119 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 229ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:undefined disposed:false
+122 silly fetch manifest resolve-pkg-maps@^1.0.0
+123 silly packumentCache full:https://registry.npmjs.org/resolve-pkg-maps cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 295ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:undefined disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 347ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:undefined disposed:false
+128 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 338ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:undefined disposed:false
+130 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 363ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:undefined disposed:false
+132 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 251ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:undefined disposed:false
+134 http fetch GET 200 https://registry.npmjs.org/resolve-pkg-maps 219ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/resolve-pkg-maps set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 239ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:undefined disposed:false
+138 silly placeDep ROOT @esbuild/aix-ppc64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+139 silly placeDep ROOT @esbuild/android-arm@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+140 silly placeDep ROOT @esbuild/android-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+141 silly placeDep ROOT @esbuild/android-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+142 silly placeDep ROOT @esbuild/darwin-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+143 silly placeDep ROOT @esbuild/darwin-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+144 silly placeDep ROOT @esbuild/freebsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+145 silly placeDep ROOT @esbuild/freebsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+146 silly placeDep ROOT @esbuild/linux-arm@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+147 silly placeDep ROOT @esbuild/linux-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+148 silly placeDep ROOT @esbuild/linux-ia32@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+149 silly placeDep ROOT @esbuild/linux-loong64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+150 silly placeDep ROOT @esbuild/linux-mips64el@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+151 silly placeDep ROOT @esbuild/linux-ppc64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+152 silly placeDep ROOT @esbuild/linux-riscv64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+153 silly placeDep ROOT @esbuild/linux-s390x@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+154 silly placeDep ROOT @esbuild/linux-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+155 silly placeDep ROOT @esbuild/netbsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+156 silly placeDep ROOT @esbuild/netbsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+157 silly placeDep ROOT @esbuild/openbsd-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+158 silly placeDep ROOT @esbuild/openbsd-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+159 silly placeDep ROOT @esbuild/openharmony-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+160 silly placeDep ROOT @esbuild/sunos-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+161 silly placeDep ROOT @esbuild/win32-arm64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+162 silly placeDep ROOT @esbuild/win32-ia32@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+163 silly placeDep ROOT @esbuild/win32-x64@0.25.11 OK for: esbuild@0.25.11 want: 0.25.11
+164 silly placeDep ROOT resolve-pkg-maps@1.0.0 OK for: get-tsconfig@4.12.0 want: ^1.0.0
+165 silly reify moves {}
+166 silly audit bulk request {
+166 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+166 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+166 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+166 silly audit   '@jridgewell/trace-mapping': [ '0.3.9' ],
+166 silly audit   '@tsconfig/node10': [ '1.0.11' ],
+166 silly audit   '@tsconfig/node12': [ '1.0.11' ],
+166 silly audit   '@tsconfig/node14': [ '1.0.3' ],
+166 silly audit   '@tsconfig/node16': [ '1.0.4' ],
+166 silly audit   '@types/better-sqlite3': [ '7.6.13' ],
+166 silly audit   '@types/body-parser': [ '1.19.6' ],
+166 silly audit   '@types/connect': [ '3.4.38' ],
+166 silly audit   '@types/express': [ '5.0.3' ],
+166 silly audit   '@types/express-serve-static-core': [ '5.1.0' ],
+166 silly audit   '@types/http-errors': [ '2.0.5' ],
+166 silly audit   '@types/mime': [ '1.3.5' ],
+166 silly audit   '@types/node': [ '24.9.1' ],
+166 silly audit   '@types/qs': [ '6.14.0' ],
+166 silly audit   '@types/range-parser': [ '1.2.7' ],
+166 silly audit   '@types/send': [ '1.2.0', '0.17.5' ],
+166 silly audit   '@types/serve-static': [ '1.15.9' ],
+166 silly audit   '@types/strip-bom': [ '3.0.0' ],
+166 silly audit   '@types/strip-json-comments': [ '0.0.30' ],
+166 silly audit   accepts: [ '2.0.0' ],
+166 silly audit   acorn: [ '8.15.0' ],
+166 silly audit   'acorn-walk': [ '8.3.4' ],
+166 silly audit   anymatch: [ '3.1.3' ],
+166 silly audit   arg: [ '4.1.3' ],
+166 silly audit   asynckit: [ '0.4.0' ],
+166 silly audit   axios: [ '1.12.2' ],
+166 silly audit   'balanced-match': [ '1.0.2' ],
+166 silly audit   'base64-js': [ '1.5.1' ],
+166 silly audit   'better-sqlite3': [ '12.4.1' ],
+166 silly audit   'binary-extensions': [ '2.3.0' ],
+166 silly audit   bindings: [ '1.5.0' ],
+166 silly audit   bl: [ '4.1.0' ],
+166 silly audit   'body-parser': [ '2.2.0' ],
+166 silly audit   'brace-expansion': [ '1.1.12' ],
+166 silly audit   braces: [ '3.0.3' ],
+166 silly audit   buffer: [ '5.7.1' ],
+166 silly audit   'buffer-from': [ '1.1.2' ],
+166 silly audit   bytes: [ '3.1.2' ],
+166 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+166 silly audit   'call-bound': [ '1.0.4' ],
+166 silly audit   chokidar: [ '3.6.0' ],
+166 silly audit   chownr: [ '1.1.4' ],
+166 silly audit   'combined-stream': [ '1.0.8' ],
+166 silly audit   'concat-map': [ '0.0.1' ],
+166 silly audit   'content-disposition': [ '1.0.0' ],
+166 silly audit   'content-type': [ '1.0.5' ],
+166 silly audit   cookie: [ '0.7.2' ],
+166 silly audit   'cookie-signature': [ '1.2.2' ],
+166 silly audit   cors: [ '2.8.5' ],
+166 silly audit   'create-require': [ '1.1.1' ],
+166 silly audit   crypto: [ '1.0.1' ],
+166 silly audit   debug: [ '4.4.3' ],
+166 silly audit   'decompress-response': [ '6.0.0' ],
+166 silly audit   'deep-extend': [ '0.6.0' ],
+166 silly audit   'delayed-stream': [ '1.0.0' ],
+166 silly audit   depd: [ '2.0.0' ],
+166 silly audit   'detect-libc': [ '2.1.2' ],
+166 silly audit   diff: [ '4.0.2' ],
+166 silly audit   'dunder-proto': [ '1.0.1' ],
+166 silly audit   'dynamic-dedupe': [ '0.3.0' ],
+166 silly audit   'ee-first': [ '1.1.1' ],
+166 silly audit   encodeurl: [ '2.0.0' ],
+166 silly audit   'end-of-stream': [ '1.4.5' ],
+166 silly audit   'es-define-property': [ '1.0.1' ],
+166 silly audit   'es-errors': [ '1.3.0' ],
+166 silly audit   'es-object-atoms': [ '1.1.1' ],
+166 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+166 silly audit   'escape-html': [ '1.0.3' ],
+166 silly audit   etag: [ '1.8.1' ],
+166 silly audit   'expand-template': [ '2.0.3' ],
+166 silly audit   express: [ '5.1.0' ],
+166 silly audit   'file-uri-to-path': [ '1.0.0' ],
+166 silly audit   'fill-range': [ '7.1.1' ],
+166 silly audit   finalhandler: [ '2.1.0' ],
+166 silly audit   'follow-redirects': [ '1.15.11' ],
+166 silly audit   'form-data': [ '4.0.4' ],
+166 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+166 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+166 silly audit   forwarded: [ '0.2.0' ],
+166 silly audit   fresh: [ '2.0.0' ],
+166 silly audit   'fs-constants': [ '1.0.0' ],
+166 silly audit   'fs.realpath': [ '1.0.0' ],
+166 silly audit   fsevents: [ '2.3.3' ],
+166 silly audit   'function-bind': [ '1.1.2' ],
+166 silly audit   'get-intrinsic': [ '1.3.0' ],
+166 silly audit   'get-proto': [ '1.0.1' ],
+166 silly audit   'github-from-package': [ '0.0.0' ],
+166 silly audit   glob: [ '7.2.3' ],
+166 silly audit   'glob-parent': [ '5.1.2' ],
+166 silly audit   gopd: [ '1.2.0' ],
+166 silly audit   'has-flag': [ '3.0.0' ],
+166 silly audit   'has-symbols': [ '1.1.0' ],
+166 silly audit   'has-tostringtag': [ '1.0.2' ],
+166 silly audit   hasown: [ '2.0.2' ],
+166 silly audit   helmet: [ '8.1.0' ],
+166 silly audit   'http-errors': [ '2.0.0' ],
+166 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+166 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+166 silly audit   ieee754: [ '1.2.1' ],
+166 silly audit   'ignore-by-default': [ '1.0.1' ],
+166 silly audit   inflight: [ '1.0.6' ],
+166 silly audit   inherits: [ '2.0.4' ],
+166 silly audit   ini: [ '1.3.8' ],
+166 silly audit   'ipaddr.js': [ '1.9.1' ],
+166 silly audit   'is-binary-path': [ '2.1.0' ],
+166 silly audit   'is-core-module': [ '2.16.1' ],
+166 silly audit   'is-extglob': [ '2.1.1' ],
+166 silly audit   'is-glob': [ '4.0.3' ],
+166 silly audit   'is-number': [ '7.0.0' ],
+166 silly audit   'is-promise': [ '4.0.0' ],
+166 silly audit   'make-error': [ '1.3.6' ],
+166 silly audit   'math-intrinsics': [ '1.1.0' ],
+166 silly audit   'media-typer': [ '1.1.0' ],
+166 silly audit   'merge-descriptors': [ '2.0.0' ],
+166 silly audit   'mimic-response': [ '3.1.0' ],
+166 silly audit   minimatch: [ '3.1.2' ],
+166 silly audit   minimist: [ '1.2.8' ],
+166 silly audit   mkdirp: [ '1.0.4' ],
+166 silly audit   'mkdirp-classic': [ '0.5.3' ],
+166 silly audit   ms: [ '2.1.3' ],
+166 silly audit   'napi-build-utils': [ '2.0.0' ],
+166 silly audit   negotiator: [ '1.0.0' ],
+166 silly audit   'node-abi': [ '3.78.0' ],
+166 silly audit   nodemon: [ '3.1.10' ],
+166 silly audit   'normalize-path': [ '3.0.0' ],
+166 silly audit   'object-assign': [ '4.1.1' ],
+166 silly audit   'object-inspect': [ '1.13.4' ],
+166 silly audit   'on-finished': [ '2.4.1' ],
+166 silly audit   once: [ '1.4.0' ],
+166 silly audit   parseurl: [ '1.3.3' ],
+166 silly audit   'path-is-absolute': [ '1.0.1' ],
+166 silly audit   'path-parse': [ '1.0.7' ],
+166 silly audit   'path-to-regexp': [ '8.3.0' ],
+166 silly audit   picomatch: [ '2.3.1' ],
+166 silly audit   'prebuild-install': [ '7.1.3' ],
+166 silly audit   'proxy-addr': [ '2.0.7' ],
+166 silly audit   'proxy-from-env': [ '1.1.0' ],
+166 silly audit   'pstree.remy': [ '1.1.8' ],
+166 silly audit   pump: [ '3.0.3' ],
+166 silly audit   qs: [ '6.14.0' ],
+166 silly audit   'range-parser': [ '1.2.1' ],
+166 silly audit   'raw-body': [ '3.0.1' ],
+166 silly audit   rc: [ '1.2.8' ],
+166 silly audit   'readable-stream': [ '3.6.2' ],
+166 silly audit   readdirp: [ '3.6.0' ],
+166 silly audit   resolve: [ '1.22.11' ],
+166 silly audit   rimraf: [ '2.7.1' ],
+166 silly audit   router: [ '2.2.0' ],
+166 silly audit   'safe-buffer': [ '5.2.1' ],
+166 silly audit   'safer-buffer': [ '2.1.2' ],
+166 silly audit   semver: [ '7.7.3' ],
+166 silly audit   send: [ '1.2.0' ],
+166 silly audit   'serve-static': [ '2.2.0' ],
+166 silly audit   setprototypeof: [ '1.2.0' ],
+166 silly audit   'side-channel': [ '1.1.0' ],
+166 silly audit   'side-channel-list': [ '1.0.0' ],
+166 silly audit   'side-channel-map': [ '1.0.1' ],
+166 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+166 silly audit   'simple-concat': [ '1.0.1' ],
+166 silly audit   'simple-get': [ '4.0.1' ],
+166 silly audit   'simple-update-notifier': [ '2.0.0' ],
+166 silly audit   'source-map': [ '0.6.1' ],
+166 silly audit   'source-map-support': [ '0.5.21' ],
+166 silly audit   string_decoder: [ '1.3.0' ],
+166 silly audit   'strip-bom': [ '3.0.0' ],
+166 silly audit   'strip-json-comments': [ '2.0.1' ],
+166 silly audit   'supports-color': [ '5.5.0' ],
+166 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+166 silly audit   'tar-fs': [ '2.1.4' ],
+166 silly audit   'tar-stream': [ '2.2.0' ],
+166 silly audit   'to-regex-range': [ '5.0.1' ],
+166 silly audit   toidentifier: [ '1.0.1' ],
+166 silly audit   touch: [ '3.1.1' ],
+166 silly audit   'tree-kill': [ '1.2.2' ],
+166 silly audit   'ts-node': [ '10.9.2' ],
+166 silly audit   'ts-node-dev': [ '2.0.0' ],
+166 silly audit   tsconfig: [ '7.0.0' ],
+166 silly audit   'tunnel-agent': [ '0.6.0' ],
+166 silly audit   'type-is': [ '2.0.1' ],
+166 silly audit   typescript: [ '5.9.3' ],
+166 silly audit   undefsafe: [ '2.0.5' ],
+166 silly audit   'undici-types': [ '7.16.0' ],
+166 silly audit   unpipe: [ '1.0.0' ],
+166 silly audit   'util-deprecate': [ '1.0.2' ],
+166 silly audit   'v8-compile-cache-lib': [ '3.0.1' ],
+166 silly audit   vary: [ '1.1.2' ],
+166 silly audit   wrappy: [ '1.0.2' ],
+166 silly audit   xtend: [ '4.0.2' ],
+166 silly audit   yn: [ '3.1.1' ],
+166 silly audit   tsx: [ '4.20.6' ],
+166 silly audit   esbuild: [ '0.25.11' ],
+166 silly audit   'get-tsconfig': [ '4.12.0' ],
+166 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+166 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+166 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+166 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+166 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+166 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+166 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+166 silly audit   'resolve-pkg-maps': [ '1.0.0' ]
+166 silly audit }
+167 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\win32-ia32
+168 silly reify mark deleted [
+168 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\win32-ia32'
+168 silly reify ]
+169 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\win32-arm64
+170 silly reify mark deleted [
+170 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\win32-arm64'
+170 silly reify ]
+171 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\sunos-x64
+172 silly reify mark deleted [
+172 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\sunos-x64'
+172 silly reify ]
+173 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\openharmony-arm64
+174 silly reify mark deleted [
+174 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\openharmony-arm64'
+174 silly reify ]
+175 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\openbsd-x64
+176 silly reify mark deleted [
+176 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\openbsd-x64'
+176 silly reify ]
+177 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\openbsd-arm64
+178 silly reify mark deleted [
+178 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\openbsd-arm64'
+178 silly reify ]
+179 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\netbsd-x64
+180 silly reify mark deleted [
+180 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\netbsd-x64'
+180 silly reify ]
+181 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\netbsd-arm64
+182 silly reify mark deleted [
+182 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\netbsd-arm64'
+182 silly reify ]
+183 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-x64
+184 silly reify mark deleted [
+184 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-x64'
+184 silly reify ]
+185 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-s390x
+186 silly reify mark deleted [
+186 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-s390x'
+186 silly reify ]
+187 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-riscv64
+188 silly reify mark deleted [
+188 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-riscv64'
+188 silly reify ]
+189 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-ppc64
+190 silly reify mark deleted [
+190 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-ppc64'
+190 silly reify ]
+191 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-mips64el
+192 silly reify mark deleted [
+192 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-mips64el'
+192 silly reify ]
+193 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-loong64
+194 silly reify mark deleted [
+194 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-loong64'
+194 silly reify ]
+195 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-ia32
+196 silly reify mark deleted [
+196 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-ia32'
+196 silly reify ]
+197 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-arm64
+198 silly reify mark deleted [
+198 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-arm64'
+198 silly reify ]
+199 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\linux-arm
+200 silly reify mark deleted [
+200 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\linux-arm'
+200 silly reify ]
+201 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\freebsd-x64
+202 silly reify mark deleted [
+202 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\freebsd-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\freebsd-arm64
+204 silly reify mark deleted [
+204 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\freebsd-arm64'
+204 silly reify ]
+205 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\darwin-x64
+206 silly reify mark deleted [
+206 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\darwin-x64'
+206 silly reify ]
+207 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\darwin-arm64
+208 silly reify mark deleted [
+208 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\darwin-arm64'
+208 silly reify ]
+209 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\android-x64
+210 silly reify mark deleted [
+210 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\android-x64'
+210 silly reify ]
+211 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\android-arm64
+212 silly reify mark deleted [
+212 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\android-arm64'
+212 silly reify ]
+213 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\android-arm
+214 silly reify mark deleted [
+214 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\android-arm'
+214 silly reify ]
+215 verbose reify failed optional dependency F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api\node_modules\@esbuild\aix-ppc64
+216 silly reify mark deleted [
+216 silly reify   'F:\\EPHATA\\Documents\\StringAnalyzer\\string-analyzer-api\\node_modules\\@esbuild\\aix-ppc64'
+216 silly reify ]
+217 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.11.tgz 1ms (cache hit)
+218 http cache get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.12.0.tgz 0ms (cache hit)
+219 http cache resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 0ms (cache hit)
+220 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.11.tgz. Extracting by manifest.
+221 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.6.tgz 0ms (cache hit)
+222 silly tarball no local data for get-tsconfig@https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.12.0.tgz. Extracting by manifest.
+223 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz 0ms (cache hit)
+224 silly tarball no local data for resolve-pkg-maps@https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz. Extracting by manifest.
+225 silly tarball no local data for tsx@https://registry.npmjs.org/tsx/-/tsx-4.20.6.tgz. Extracting by manifest.
+226 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz. Extracting by manifest.
+227 http fetch GET 200 https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz 237ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz 316ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.12.0.tgz 329ms (cache miss)
+230 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 409ms
+231 silly audit report {}
+232 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.20.6.tgz 490ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.11.tgz 1632ms (cache miss)
+234 info run esbuild@0.25.11 postinstall node_modules/esbuild node install.js
+235 info run esbuild@0.25.11 postinstall { code: 0, signal: null }
+236 silly ADD node_modules/resolve-pkg-maps
+237 silly ADD node_modules/@esbuild/win32-x64
+238 silly ADD node_modules/@esbuild/win32-ia32
+239 silly ADD node_modules/@esbuild/win32-arm64
+240 silly ADD node_modules/@esbuild/sunos-x64
+241 silly ADD node_modules/@esbuild/openharmony-arm64
+242 silly ADD node_modules/@esbuild/openbsd-x64
+243 silly ADD node_modules/@esbuild/openbsd-arm64
+244 silly ADD node_modules/@esbuild/netbsd-x64
+245 silly ADD node_modules/@esbuild/netbsd-arm64
+246 silly ADD node_modules/@esbuild/linux-x64
+247 silly ADD node_modules/@esbuild/linux-s390x
+248 silly ADD node_modules/@esbuild/linux-riscv64
+249 silly ADD node_modules/@esbuild/linux-ppc64
+250 silly ADD node_modules/@esbuild/linux-mips64el
+251 silly ADD node_modules/@esbuild/linux-loong64
+252 silly ADD node_modules/@esbuild/linux-ia32
+253 silly ADD node_modules/@esbuild/linux-arm64
+254 silly ADD node_modules/@esbuild/linux-arm
+255 silly ADD node_modules/@esbuild/freebsd-x64
+256 silly ADD node_modules/@esbuild/freebsd-arm64
+257 silly ADD node_modules/@esbuild/darwin-x64
+258 silly ADD node_modules/@esbuild/darwin-arm64
+259 silly ADD node_modules/@esbuild/android-x64
+260 silly ADD node_modules/@esbuild/android-arm64
+261 silly ADD node_modules/@esbuild/android-arm
+262 silly ADD node_modules/@esbuild/aix-ppc64
+263 silly ADD node_modules/get-tsconfig
+264 silly ADD node_modules/esbuild
+265 silly ADD node_modules/tsx
+266 verbose cwd F:\EPHATA\Documents\StringAnalyzer\string-analyzer-api
+267 verbose os Windows_NT 10.0.22621
+268 verbose node v22.14.0
+269 verbose npm  v11.5.2
+270 verbose exit 0
+271 info ok

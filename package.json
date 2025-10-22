@@ -1,0 +1,39 @@
+{
+  "name": "string-analyzer-api",
+  "version": "1.0.0",
+  "description": "hng intern stage-1 task",
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "api"
+  ],
+  "license": "MIT",
+  "author": "Samuel Ezeh",
+  "type": "module",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "better-sqlite3": "^12.4.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
